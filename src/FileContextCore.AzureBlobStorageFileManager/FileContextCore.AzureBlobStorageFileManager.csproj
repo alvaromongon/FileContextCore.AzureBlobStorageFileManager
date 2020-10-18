@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- https://docs.microsoft.com/en-us/dotnet/core/tools/csproj#nuget-metadata-properties -->
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Authors>Alvaro Montero Gonzalez</Authors>
+        <owners>Alvaro Montero Gonzalez</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <Description>Azure blob storage implementation for the File Context Core package. It allows to use EntityFramework Core without a database, just using a file located in an Azure blob storage as database</Description>
+        <Copyright>Copyright 2020</Copyright>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
+        <PackageReleaseNotes>First Release.</PackageReleaseNotes>
+        <RepositoryUrl>https://github.com/alvaromongon/FileContextCore.AzureBlobStorageFileManager</RepositoryUrl>
+
+        <PackageTags>netstandard;blobstorage;azure-storage;entityframeworkcore</PackageTags>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+        <PackageReference Include="FileContextCore" Version="3.4.0" />
+    </ItemGroup>
+
+</Project>
+
