@@ -9,7 +9,7 @@
         <Description>Azure blob storage implementation for the File Context Core package. It allows to use EntityFramework Core without a database, just using a file located in an Azure blob storage as database</Description>
         <Copyright>Copyright 2020</Copyright>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-        <PackageIcon>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIcon>
+        <PackageIconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</PackageIconUrl>
         <PackageReleaseNotes>First Release.</PackageReleaseNotes>
         <RepositoryUrl>https://github.com/alvaromongon/FileContextCore.AzureBlobStorageFileManager</RepositoryUrl>
 
